@@ -36,7 +36,7 @@ a.status__content__spoiler-link:hover {
 .drawer__tab,
 .tabs-bar__link,
 .sidebar a:not(.selected),
-.column div:not(.status-list__unread-indicator):not(.notifications__unread-indicator):not(.status__video-player-spoiler):not(.spoiler-button):not(.status__video-player-expand):not(.status__video-player-mute),
+.column div:not(.status-list__unread-indicator):not(.notifications__unread-indicator):not(.status__video-player-spoiler):not(.spoiler-button):not(.status__video-player-expand):not(.status__video-player-mute):not(.video-player__controls):not(.video-player__seek):not(.video-player__spoiler):not(.video-player__buttons):not(.video-player),
 .drawer__inner {
     background-color: #f0f0f0;
 }
@@ -316,7 +316,7 @@ domain("mamot.fr") {
     .drawer__tab,
     .tabs-bar__link,
     .sidebar a:not(.selected),
-    .column div:not(.status-list__unread-indicator):not(.notifications__unread-indicator):not(.status__video-player-spoiler):not(.spoiler-button):not(.status__video-player-expand):not(.status__video-player-mute),
+.column div:not(.status-list__unread-indicator):not(.notifications__unread-indicator):not(.status__video-player-spoiler):not(.spoiler-button):not(.status__video-player-expand):not(.status__video-player-mute):not(.video-player__controls):not(.video-player__seek):not(.video-player__spoiler):not(.video-player__buttons):not(.video-player),
     .drawer__inner {
         background-color: #f0f0f0;
     }
@@ -565,5 +565,14 @@ a.status__relative-time:hover {
     box-shadow: 4px 2px 2px #888;
     border-radius: 2px;
     background: white !important;
+}
+div.columns-area
+{
+    background-color: white;
+}
+
+div.ui
+{
+    background-color: #FFF;
 }
 }
