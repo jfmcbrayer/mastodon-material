@@ -1,4 +1,15 @@
-@-moz-document domain("glitch.social") {
+@-moz-document domain("glitch.social")
+domain("mastodon.social"),
+domain("pawoo.net"),
+domain("mstdn.jp"),
+domain("anticapitalist.party"),
+domain("soc.ialis.me"),
+domain("friends.nico"),
+domain("mastodon.xyz"),
+domain("mastodon.cloud"),
+domain("octodon.social"),
+domain("mamot.fr")
+{
 /* Main colors:
 1. Status bar     #000000 (but we don't actually use this)
 2. App bar        #212121
