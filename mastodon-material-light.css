@@ -210,7 +210,7 @@ domain("mamot.fr") {
     .column-header {
         background: transparent;
     }
-}
+
 .status,
 .detailed-status {
     border: 1px solid #CCCC;
