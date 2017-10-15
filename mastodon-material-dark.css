@@ -1,15 +1,4 @@
-@-moz-document domain("glitch.social")
-domain("mastodon.social"),
-domain("pawoo.net"),
-domain("mstdn.jp"),
-domain("anticapitalist.party"),
-domain("soc.ialis.me"),
-domain("friends.nico"),
-domain("mastodon.xyz"),
-domain("mastodon.cloud"),
-domain("octodon.social"),
-domain("mamot.fr")
-{
+@-moz-document domain("glitch.social") {
 /* Main colors:
 1. Status bar     #000000 (but we don't actually use this)
 2. App bar        #212121
@@ -19,17 +8,17 @@ domain("mamot.fr")
 
 div.columns-area,
 .drawer {
-  background-color: #212121;
+	background-color: #212121;
 }
 
 
 .column-header, .column-header__button,
 .drawer__header, .drawer__tab {
-  background-color: #212121 !important;
+ 	background-color: #212121 !important;   
 }
 
 div.status-wrapper {
-  background-color: #303030 !important;
+	background-color: #303030 !important;
 }
 .status__prepend, status__prepend > * {
     background: #303030 !important;
@@ -62,8 +51,12 @@ input.search__input:focus,
     background: #303030;
 }
 
-.notification, .status__wrapper, article,
+.notification, .status__wrapper, article, 
 .item-list, .scrollable {
-  background-color: #303030 !important;
+ 	background-color: #303030 !important;   
+}
+
+.notification__message {
+	background-color: #303030 !important;
 }
 }
