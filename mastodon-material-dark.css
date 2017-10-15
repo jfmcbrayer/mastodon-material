@@ -8,17 +8,17 @@
 
 div.columns-area,
 .drawer {
-	background-color: #212121;
+  background-color: #212121;
 }
 
 
 .column-header, .column-header__button,
 .drawer__header, .drawer__tab {
- 	background-color: #212121 !important;   
+  background-color: #212121 !important;
 }
 
 div.status-wrapper {
-	background-color: #303030 !important;
+  background-color: #303030 !important;
 }
 .status__prepend, status__prepend > * {
     background: #303030 !important;
@@ -28,7 +28,6 @@ div.status-wrapper {
 .detailed-status {
     border: 1px solid #212121;
     margin: 8px;
-    box-shadow: 4px 2px 2px #000;
     border-radius: 2px;
     background: #424242 !important;
 }
@@ -51,12 +50,12 @@ input.search__input:focus,
     background: #303030;
 }
 
-.notification, .status__wrapper, article, 
+.notification, .status__wrapper, article,
 .item-list, .scrollable {
- 	background-color: #303030 !important;   
+  background-color: #303030 !important;
 }
 
 .notification__message {
-	background-color: #303030 !important;
+  background-color: #303030 !important;
 }
 }
