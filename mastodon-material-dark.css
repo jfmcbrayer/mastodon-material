@@ -78,7 +78,11 @@ input.search__input:focus,
   background-color: #303030 !important;
 }
 
-.notification__message {
-  background-color: #303030 !important;
+.notification__message,
+.notification__message div,
+.notification__message .fa
+{
+    background-color: #303030 !important;
 }
+
 }
