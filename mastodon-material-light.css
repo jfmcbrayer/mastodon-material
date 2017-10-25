@@ -228,7 +228,10 @@ domain("mamot.fr") {
 .account__avatar-overlay,
 .status__content__text .detailed-status__meta,
 .detailed-status__meta > *,
-.status__content * {
+.status__content *,
+.status__action-bar-dropdown,
+.status__action-bar-dropdown div
+{
     background: white !important;
 }
 a.status__display-name:hover,
